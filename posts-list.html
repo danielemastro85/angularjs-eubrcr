@@ -1,0 +1,9 @@
+<h1>Ciao</h1>
+
+<ul>
+  <li ng-repeat="post in vm.posts | filter:vm.search">
+    Titolo: {{post.title}}
+    <br />
+    Testo: {{post.body}}
+  </li>
+</ul>
